@@ -9,7 +9,7 @@
       "name": "dsh",
       "source": "./plugins/dsh",
       "description": "Delegate tasks from Claude Code to a DeepSeek Harness (DSH) subagent.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

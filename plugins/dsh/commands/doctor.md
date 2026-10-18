@@ -8,6 +8,7 @@ Verify the DeepSeek Harness connection by calling the `dsh_delegate` tool once:
 - `task`: `Reply with exactly: DSH_OK`
 - `mode`: `read-only`
 - `timeout_ms`: `120000`
+- `wait`: `true`
 
 Report one of these outcomes:
 
