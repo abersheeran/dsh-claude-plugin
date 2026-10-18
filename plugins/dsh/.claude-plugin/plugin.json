@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "description": "Delegate tasks from Claude Code to a DeepSeek Harness (DSH) subagent running in your workspace.",
   "author": {
-    "name": "dsh-subagent contributors"
+    "name": "Aber",
+    "email": "me@abersheeran.com"
   },
   "license": "MIT",
   "keywords": [
@@ -15,5 +16,7 @@
     "delegation",
     "second-opinion"
   ],
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "homepage": "https://github.com/abersheeran/dsh-claude-plugin",
+  "repository": "https://github.com/abersheeran/dsh-claude-plugin"
 }

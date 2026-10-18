@@ -1,7 +1,8 @@
 {
   "name": "dsh-plugins",
   "owner": {
-    "name": "dsh-subagent contributors"
+    "name": "Aber",
+    "email": "me@abersheeran.com"
   },
   "plugins": [
     {
