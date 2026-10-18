@@ -1,0 +1,14 @@
+{
+  "name": "dsh-plugins",
+  "owner": {
+    "name": "dsh-subagent contributors"
+  },
+  "plugins": [
+    {
+      "name": "dsh",
+      "source": "./plugins/dsh",
+      "description": "Delegate tasks from Claude Code to a DeepSeek Harness (DSH) subagent.",
+      "version": "0.1.0"
+    }
+  ]
+}
