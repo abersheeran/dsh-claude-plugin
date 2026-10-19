@@ -19,6 +19,10 @@ Claude Code
 
 每个 DSH session 对应一个 `dsh --profile sdk` 常驻进程。MCP server 负责把 `dsh_delegate` / `dsh_wait` / `dsh_control` 翻译成 DSH 的 SDK JSON-RPC，并把 DSH 的最终回答返回 Claude Code。
 
+## 为什么不用 Haiku？
+
+Haiku 5.5 价格和 Deepseek v4.1 flash 1017 一致，推理速度很接近。但 Haiku 5.5 同属 Claude 系模型，作为 claude code subagent 使用时大概率会和主模型陷入一致的盲区。引入 Deepseek 作为 Claude 的补充，能增加智能多样性。
+
 ## 包含什么
 
 | 组件 | 用途 |
